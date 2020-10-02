@@ -13,7 +13,12 @@
  */
 
 module.exports = {
-  // plugins: [ "truffle-security" ] 
+  compile: {
+    solc: {
+      version: "0.7.0",
+    }
+  },
+  plugins: [ "truffle-security" ] 
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
 };
