@@ -12,7 +12,7 @@ contract Coin {
 
     // This is the constructor whose code is
     // run only when the contract is created.
-    constructor() public {
+    constructor() {
         minter = msg.sender;
     }
 
